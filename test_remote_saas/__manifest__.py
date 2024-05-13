@@ -3,7 +3,7 @@
     "author": "IT-Projects LLC, Eugene Molotov",
     "support": "it@it-projects.info",
     "license": "AGPL-3",
-    "version": "14.0.0.1.0",
+    "version": "16.0.1.1.0",
     "depends": ["saas_operator_remote"],
     "external_dependencies": {"python": [], "bin": []},
     "data": ["data/saas_operator_data.xml"],
