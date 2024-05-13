@@ -37,7 +37,7 @@
     "uninstall_hook": None,
 
     "auto_install": False,
-    "installable": False,
+    "installable": True,
 
     # "demo_title": "SaaS: Contracts",
     # "demo_addons": [

@@ -8,7 +8,7 @@ from urllib.parse import urlparse
 
 from odoo import models, fields, api
 
-from odoo.addons.queue_job.job import job
+#from odoo.addons.queue_job.job import job
 from ..os import analysis_dir, update_repo, get_manifests
 from ..odoo import is_test
 
@@ -94,7 +94,7 @@ class Demo(models.Model):
         return vals
 
     @api.model
-    @job
+   #@job
     def repos_updating_start(self, demos=None):
         # TODO: This method is called by cron once in a night or when new template is created
         if not demos:

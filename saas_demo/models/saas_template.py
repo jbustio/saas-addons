@@ -11,7 +11,7 @@ class Template(models.Model):
     repo_id = fields.Many2one('saas.demo.repo')
     demo_main_addon_id = fields.Many2one('saas.module')
     # demo_url = fields.Char()
-    demo_addon_ids = fields.Many2many('saas.module', help='Will be used as default filter in Apps section of the builds')
+    demo_addon_ids = fields.Many2many('saas.module',relation='saas_demo_saas_template_rel', help='Will be used as default filter in Apps section of the builds')
     demo_branch = fields.Char()
 
     _sql_constraints = [
